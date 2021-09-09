@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(235,238,174);
+    background: linear-gradient(90deg, rgba(235,238,174,1) 0%, rgba(189,232,200,1) 35%, rgba(189,230,202,1) 42%, rgba(189,208,232,1) 75%); 
+}
+.App{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+.c-player{
+    display:block;
+    height:100vh;
+    width:45vw;
+    background: rgb(7,12,20);
+    margin: 0px auto;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+   
+.c-player > h4{
+    color:#c3abd6;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-player > p{
+    font-size: 17px;
+    font-weight: 450;
+    text-align: center;
+    color: bisque;
+    
+
+}
+.c-player--details .details-img img{
+    position: relative;
+    width:fit-content;
+    margin: 0 auto;
+}
+
+.c-player--details .details-img img {
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 16%;
+}
+
+.c-player--details .details-artist{
+    color: rgba(189,232,200,1);
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-player--details .details-title{
+    color: rgba(189,232,200,1);
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5px;
+    box-shadow: inset -1px -1px 3px rgba(0, 0, 0, 0.8), inset 1px 1px 3px rgba(255, 255, 255, 0.4);
+   
+}
+.c-player--controls{
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 30px;
+    display: flex;
+    padding-top: 15px;
+}
+.c-player--controls .play-btn{
+    display: flex;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    border:none;
+    outline: none;
+    background-color: royalblue;
+    color:seashell;
+    font-size: 30px;
+    cursor: pointer;
+}
+.c-player--controls .skip-btn{
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: slategray;
+    font-size: 22px;
+}
